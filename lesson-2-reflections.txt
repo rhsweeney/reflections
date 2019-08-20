@@ -1,0 +1,29 @@
+What happens when you initialize a repository? Why do you need to do it?
+A hidden git directory gets created with a bunch of metadata that allows Git to 
+function.  This hidden directory is called .git.  You use 
+git init
+to initialize a repository.  You can use
+git status
+to check the current status of your repo
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+The staging area is a git feature that allows you to specify what files you 
+want included in your next commit. The working directory is just where you work, 
+as the name suggests. Then you can specify which files in your working directory 
+you want included in the commit. The repository is made up of the commits you 
+have made.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
