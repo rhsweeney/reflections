@@ -1,0 +1,55 @@
+Answering questions
+
+Q: How did viewing an FC between 2 versions help you spot the bug?
+A: Without the FC command, I would have to manually scroll through 1000+ lines of
+code to identify where the bug was.  Even if I did get through all those lines, 
+it's unlikely I would even spot the error because it was so minute. So having the
+computer scan through the file is incredible cuz computers are designed to do those
+small, tedious, redundant, specific tasks that humans are really bad at.  So it 
+gave a couple of different changes between the versions so I just had to quickly
+breeze through this new subset that was significantly smaller in order to find the 
+mistake.
+
+
+Q: What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs having versions automatically saved, like Google 
+Docs does?
+A: I think it's mostly pros for manually committing.  This way you get to control 
+when it makes most sense that a change should go in. It doesn't make sense to save 
+in useless areas which a predetermined saving tool would do just that. I think the 
+only advantage to an auto saving/committing tool is that you can't forget to save 
+that way which ensures all your changes at least don't get lost. But I think it's 
+still better to go with the manual commit option like Git and SVN offer ... I think 
+we said SVN offers this?  Ya, next slide in the clas confirms that it does.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple 
+files in one commit, while others, like Google Docs, treat each file separately?
+A: I think that's a pretty cool feature that Git saves all files in your repository 
+even when you just save one of the files.  That makes a ton of sense to me in terms 
+of webpage development cuz HTML and CSS and JS are so closely intertwined there. I 
+guess that means before you make your commit you should make all the logical changes 
+in all of the files first so then all those changes get saved together rather than 
+making a change in the HTML, committing, making its corresponding change in the CSS, 
+committing, and then making its corresponding change in JS, committing. In that fashion 
+you lose the potential to link all of those changes together in one commit which 
+is actually really powerful to be able to do.
+
+
+Q: How can you use the commands git log and git diff to view the history of files?
+A: Git log shows you all of the previous commits. Git diff shows you the differences 
+between commits. I used git diff --stats like a bad ass ;) cuz it gives you a 
+quicker summary rather than having to scroll through all the changes manually 
+when using git diff
+
+Q: How might using version control make you more confident to make changes that 
+could break something?
+A: Yo this wil make me way more confident to make changes that could break stuff! 
+Cuz then I can super easily revert back to my previous version or previous HEAD 
+I guess I should be saying without having to go insane tracking down where my bug 
+was!
+
+Q: Now that you have your workspace set up, what do you want to try using Git 
+for?
+A: I just wanna see how it works in action. I also did not run the recommended 
+Git setup options in the previous video cuz 1) I'm a bad boy and 2) I want to 
+see how Git works with the defaults before I change them
