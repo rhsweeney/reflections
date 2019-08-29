@@ -16,6 +16,12 @@ have made.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+Staging area gives me a ton of control over which files and thus logical 
+changes I put in the commit. Rather than Git just throwing in all the files 
+in my working directory, I get to manually select which ones I want committed. 
+So if I only made changes to a specific subset of files that are related to the 
+logical change I made then those will be the only files that I'll add to the 
+staing area before making my commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
