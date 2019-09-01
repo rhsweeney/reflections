@@ -45,6 +45,10 @@ git log --graph --oneline [branch1] [branch2]
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+It combines all the changes made in each branch and sets the label to whatever 
+branch you had checked out when the merge command is run. Ummm, I don't know 
+why we represent it in the diagram the way we do ... awkward. 
+git merge
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
