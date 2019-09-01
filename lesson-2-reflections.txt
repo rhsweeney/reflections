@@ -37,6 +37,11 @@ part comes into play. If it's not fixing the main bugs in your program then it
 might be best in a separate branch.
 
 How do the diagrams help you visualize the branch structure?
+Damn. These git trees can get crazy complex so these diagram visualizations can 
+help you keep track of what is up and what is down. I just don't know how you 
+keep from getting lost in it all ... but I guess maybe that's where the diagram 
+comes in hand
+git log --graph --oneline [branch1] [branch2]
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
