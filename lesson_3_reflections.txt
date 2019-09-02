@@ -1,2 +1,9 @@
 When would you want to create a remote repository rather than keeping all your work locally?
 Probably when you wanna collab with other people or show off your stuff
+
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+Same reason as why Git doesn't auto-save. Sometimes you're just not ready for 
+your changes to be pushed publicly. I know Caroline mentioned earlier that 
+you may want the feature you are working on to be fully completed before pushing 
+it into the public domain (aka GitHub).
