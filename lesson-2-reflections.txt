@@ -52,3 +52,7 @@ git merge
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Git is just a program and programs aren't as smart as humans (yet). So Git 
+wouldn't always make the right decision when it comes to deciding which line 
+of code to keep. That's where you need the developer to chime in to make the 
+ultimate decision.
