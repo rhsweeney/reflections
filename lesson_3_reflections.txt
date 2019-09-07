@@ -7,3 +7,18 @@ Same reason as why Git doesn't auto-save. Sometimes you're just not ready for
 your changes to be pushed publicly. I know Caroline mentioned earlier that 
 you may want the feature you are working on to be fully completed before pushing 
 it into the public domain (aka GitHub).
+
+Describe the differences between forks, clones, and branches. When would you use 
+one instead of another?
+ANSWER
+Fork: this is the same as cloning except it is all done on GitHub servers (aka 
+not your local machine). So it's cloning the repo on GitHub servers and associating 
+that cloned repo (aka fork) with your GitHub account. You would use this when 
+you want to make a copy of someone's repo to edit indenpendently. Especially if 
+you do not have permission to edits someone's repo
+Clone: Cloning a repo makes an exact copy of a repo. this is done on your local 
+machine. You can clone a repo from GitHub to bring it down to your local machine 
+or you can even clone a repo that is already on your local machine to a different 
+location on your machine.
+Branch: A "split" within the same repo. Whereas Fork and Clone both make 
+completely new repos.
