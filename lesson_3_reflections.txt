@@ -22,3 +22,11 @@ or you can even clone a repo that is already on your local machine to a differen
 location on your machine.
 Branch: A "split" within the same repo. Whereas Fork and Clone both make 
 completely new repos.
+
+What is the benefit of having a copy of the last known state of the remote stored 
+locally?
+Ummm, well it allows you to keep track of how far your current, local master 
+branch has gotten ahead of the origin/master branch and thus could give you a 
+better sense of when you should push to origin next. It also allows Git to keep 
+track of the differences between origin and origin/master and master when you 
+do a pull or fetch.
