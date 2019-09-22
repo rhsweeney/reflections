@@ -30,3 +30,18 @@ branch has gotten ahead of the origin/master branch and thus could give you a
 better sense of when you should push to origin next. It also allows Git to keep 
 track of the differences between origin and origin/master and master when you 
 do a pull or fetch.
+
+How would you collaborate without using Git or GitHub? What would be easier, and 
+what would be harder?
+Fudge me man. I dunno. I guess at the very beginning of the course we talked 
+about other platforms like Google Drive or Dropbox but those aren't really 
+designed for code cuz they do stuff like saving automatically rather than letting 
+the developer choose when the best logical commit/save point is. So I think Git 
+and GitHub are way better than that. Otherwise you could go with a competitor 
+like SVN. But other than that you'd essentially be designing a system that is 
+better than Git/GitHub and at that point you might as well build it and start 
+a company with it and I don't feel like doing that cuz I don't really care to 
+start a business in that so I'm not gonna bother thinking about it.
+
+
+
